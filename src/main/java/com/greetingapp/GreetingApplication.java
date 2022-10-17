@@ -1,13 +1,14 @@
-package com.bridgelabz.greetingapp;
+package com.greetingapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class GreetingAppApplication {
+public class GreetingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GreetingAppApplication.class, args);
+		SpringApplication.run(GreetingApplication.class, args);
+		System.out.println("Welcome to Greeting App");
 	}
-
 }
